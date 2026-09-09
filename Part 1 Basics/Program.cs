@@ -91,6 +91,7 @@ if (favMovie.ToLower().Contains("terminator"))
       \ '\ /     \  |     |  _/       /
        \  \       \ |     | /        /
  snd    \  \      \        / ");
+    
     Console.WriteLine("");
     Console.WriteLine(quote);
 }
