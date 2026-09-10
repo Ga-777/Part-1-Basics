@@ -94,6 +94,17 @@ if (favMovie.ToLower().Contains("terminator"))
     
     Console.WriteLine("");
     Console.WriteLine(quote);
+    quote = quote.Replace("A", " ");
+    quote = quote.Replace("a", " ");
+    quote = quote.Replace("E", " ");
+	quote = quote.Replace("e", " ");
+	quote = quote.Replace("I", " ");
+    quote = quote.Replace("i", " ");
+	quote = quote.Replace("O", " ");
+    quote = quote.Replace("o", " ");
+    quote = quote.Replace("U", " ");
+    quote = quote.Replace("u", " ");
+    Console.WriteLine(quote);
 }
 if (favMovie.ToLower().Contains("star wars"))
 {
@@ -135,6 +146,17 @@ snd <]   \>            \_____.>
       \__/");
     Console.WriteLine("");
     Console.WriteLine(quote);
+	quote = quote.Replace("A", " ");
+	quote = quote.Replace("a", " ");
+	quote = quote.Replace("E", " ");
+	quote = quote.Replace("e", " ");
+	quote = quote.Replace("I", " ");
+	quote = quote.Replace("i", " ");
+	quote = quote.Replace("O", " ");
+	quote = quote.Replace("o", " ");
+	quote = quote.Replace("U", " ");
+	quote = quote.Replace("u", " ");
+	Console.WriteLine(quote);
 }
 
 
@@ -186,6 +208,17 @@ if
      (_,'       '._)");
     Console.WriteLine("");
     Console.WriteLine(quote);
+	quote = quote.Replace("A", " ");
+	quote = quote.Replace("a", " ");
+	quote = quote.Replace("E", " ");
+	quote = quote.Replace("e", " ");
+	quote = quote.Replace("I", " ");
+	quote = quote.Replace("i", " ");
+	quote = quote.Replace("O", " ");
+	quote = quote.Replace("o", " ");
+	quote = quote.Replace("U", " ");
+	quote = quote.Replace("u", " ");
+	Console.WriteLine(quote);
 }
 else
     {
